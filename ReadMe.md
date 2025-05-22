@@ -114,6 +114,7 @@ git clone https://github.com/Raghav2409/Mentorship-App.git
 cd Mentorship-App
 npm install
 cp .env.example .env
+'''
 
 ### 🔐 Fill in the .env:
 DATABASE_URL=postgres://<your-db-url>
