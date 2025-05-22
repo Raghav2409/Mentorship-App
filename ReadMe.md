@@ -115,66 +115,9 @@ cd Mentorship-App
 npm install
 cp .env.example .env
 
-🔐 Fill in the .env:
+### 🔐 Fill in the .env:
 DATABASE_URL=postgres://<your-db-url>
 JWT_SECRET=your_jwt_secret
 SESSION_SECRET=your_session_secret
-MICROSOFT_CLIENT_ID=...
-SENDGRID_API_KEY=...
-🧱 Run Database Migrations
-npm run db:push
-▶️ Start the Server
-# Development
-npm run dev
-
-# Production
-npm run build
-npm start
-Visit: http://localhost:5000
-
-📘 API Documentation
-
-Endpoints & auth: API_DOCUMENTATION.md
-Schema & entities: DATA_MODEL.md
-Deployment setup: DEPLOYMENT.md
-Postman tests: postman_collection.json
-🧩 Frontend Integration
-
-🔐 Login: /api/login returns JWT
-🧾 Use JWT in Authorization header
-🌐 WebSocket: connect to /ws
-🧪 Test API: Import Postman collection
-💡 Key Features
-
-✅ Secure JWT Auth
-🧠 Intelligent Matching
-📅 Microsoft Graph Sync
-💬 WebSocket Chat
-🤱 Working Mother Features
-📈 Progress Tracking
-🔧 Environment Variables
-
-Variable	Description
-PORT	Server port (default: 5000)
-DATABASE_URL	PostgreSQL connection string
-JWT_SECRET	JWT signing key
-SESSION_SECRET	Session security key
-ALLOWED_ORIGINS	CORS allowed origins
-🔒 Security Highlights
-
-Passwords securely hashed
-JWT tokens with expiration
-Secure file uploads (Multer)
-CORS setup for safe origins
-🤝 Contributing
-
-Follow existing API contracts
-Add tests for new features
-Ensure migrations are backward-compatible
-Update documentation for changes
-❓ Need Help?
-
-Read API_DOCUMENTATION.md
-Check Postman examples
-Contact internal dev team
-Empowering growth through mentorship, learning, and support – for every professional, especially working mothers.
+MICROSOFT_CLIENT_ID=your_microsoft_client_id
+SENDGRID_API_KEY=your_sendgrid_api_key
