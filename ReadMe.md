@@ -150,12 +150,12 @@ Server will run at: http://localhost:5000
 
 ### 🧩 Frontend Integration
 
-✅ Secure JWT Auth
-🧠 Intelligent Mentor Matching
-📅 Microsoft Calendar Sync
-💬 Real-time WebSocket Chat
-🤱 Working Mother Features
-📈 Skill Progress Tracking
+- ✅ Secure JWT Auth
+- 🧠 Intelligent Mentor Matching
+- 📅 Microsoft Calendar Sync
+- 💬 Real-time WebSocket Chat
+- 🤱 Working Mother Features
+- 📈 Skill Progress Tracking
 
 ### 🔧 Environment Variables
 
