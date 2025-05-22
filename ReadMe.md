@@ -114,11 +114,75 @@ git clone https://github.com/Raghav2409/Mentorship-App.git
 cd Mentorship-App
 npm install
 cp .env.example .env
-'''
+```
 
 ### 🔐 Fill in the .env:
+```bash
 DATABASE_URL=postgres://<your-db-url>
 JWT_SECRET=your_jwt_secret
 SESSION_SECRET=your_session_secret
 MICROSOFT_CLIENT_ID=your_microsoft_client_id
 SENDGRID_API_KEY=your_sendgrid_api_key
+```
+
+### 🧱 Run Database Migrations
+```bash
+npm run db:push
+```
+
+### ▶️ Start the Server
+```bash
+# Development
+npm run dev
+
+# Production
+npm run build
+npm start
+```
+Server will run at: http://localhost:5000
+
+### 📘 API Documentation
+
+- Endpoints & Auth: API_DOCUMENTATION.md
+- Data Schema: DATA_MODEL.md
+- Deployment Guide: DEPLOYMENT.md
+- Postman Collection: postman_collection.json
+
+### 🧩 Frontend Integration
+
+✅ Secure JWT Auth
+🧠 Intelligent Mentor Matching
+📅 Microsoft Calendar Sync
+💬 Real-time WebSocket Chat
+🤱 Working Mother Features
+📈 Skill Progress Tracking
+
+### 🔧 Environment Variables
+
+| Variable          | Description                  |
+| ----------------- | ---------------------------- |
+| `PORT`            | Server port (default: 5000)  |
+| `DATABASE_URL`    | PostgreSQL connection string |
+| `JWT_SECRET`      | JWT signing key              |
+| `SESSION_SECRET`  | Session encryption key       |
+| `ALLOWED_ORIGINS` | Whitelisted domains for CORS |
+
+### 🔒 Security Highlights
+
+- Passwords are securely hashed
+- JWT tokens use expiration policies
+- File uploads validated via multer
+- CORS strictly configured
+
+### 🤝 Contributing
+
+- Follow API contracts and structure
+- Write tests for new features
+- Ensure migrations don’t break existing data
+- Update documentation for any API change
+
+### ❓ Need Help?
+
+- Read the API docs: API_DOCUMENTATION.md
+- Use the Postman collection
+- Contact the internal dev team
