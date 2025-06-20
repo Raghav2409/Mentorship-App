@@ -74,8 +74,9 @@ A full-stack-ready backend system that enables:
 
 ### 🤱 Support for Working Mothers
 - Mentorship by other mothers
-- Maternal milestone tracker
+– Empathetic Therapist AI Agent
 - Support groups & mental wellness
+- Maternal milestone tracker
 - Proxy during maternity leave
 
 ### 💬 Community Features
